@@ -75,6 +75,7 @@ private
   end
 
   def rendering_app
+    return "email-alert-frontend" if base_path == "/cma-cases"
     "finder-frontend"
   end
 

@@ -39,6 +39,7 @@ private
       beta_message: file.fetch("beta_message", nil),
       document_noun: file.fetch("document_noun"),
       filter: file.fetch("filter", nil),
+      reject: file.fetch("reject", nil),
       format_name: file.fetch("format_name", nil),
       logo_path: file.fetch("logo_path", nil),
       show_summaries: file.fetch("show_summaries", false),
